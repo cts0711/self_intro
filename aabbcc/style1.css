@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*背景顏色*/
+body {
+    background: url(img/std.jpg) left top / 23% 23% no-repeat fixed,
+                url(img/b57d957d372eb246c0bca75ab5476d87.jpg) right top / 23% 23% no-repeat fixed,
+                url(img/f18c46dc822c0f0bb9db71447c8d70a1.jpg) left bottom / 23% 23% no-repeat fixed,
+                url(img/d5dbbb62733fe1a370e33ec5586b2d5b.jpg) right bottom / 23% 23% no-repeat fixed,
+                url(img/4d69b42bbc54bc0c7c7ddcee47168ec1.jpg) 75% 75% / 120px 100px no-repeat fixed,
+                url(img/螢幕擷取畫面\ 2026-01-26\ 232704.png) center center / 900px 491px no-repeat fixed;
+    background-color: #fc55d2;
+}
+/*目錄樣式*/
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+    width: 100px;
+}
+.menu a {
+    display: block;
+    padding: 10px;
+    background-color: #19E428;
+    color: #0000ff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.menu a:hover {
+    background-color: #0000ff;
+    color: #19E428;
+}
+/*連結顏色*/
+a {
+    color: #0000ff;
+}
+a:hover{
+    color: #19E428;
+    text-decoration: none;
+}
+/*標題顏色*/
+h1 {
+    color: aquamarine;
+    background-color: orange;
+    text-align: center;
+    width: 500px;
+    border: 2px solid rgb(0, 255, 76);
+    margin: auto;
+    border-radius: 80%;
+    text-shadow:  1px 1px 2px #21ff9b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to bottom, #6fbb9a, #4a7c9d);
+    font-family: "Limelight", sans-serif;
+}
+/*加強標題的顯眼程度*/
+.h{
+    color: aquamarine;
+    text-align: center;
+}
+/*加強段落的顯眼程度*/
+.p{
+    color: aquamarine;
+    text-align: center;
+}
+/*加強圖片標題的顯眼程度*/
+.center{
+    display: block;
+    color: aquamarine;
+    text-align: center;
+}
+/*圖片容器*/
+#image-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+/*圖片對齊*/
+.bike{
+    vertical-align: top;
+}
+.L{
+    float: left;
+    margin-right: 70px;
+}
+.R{
+    float: right;
+    margin-left: 70px;
+}
+/*分頁*/
+.navLinks {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.navLinks li {
+  margin: 0 10px;
+}
+.navLinks a {
+  text-decoration: none;
+  color: #df4839;
+  background-color: #fff;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.navLinks a:hover {
+  color: #ff705b;
+  border: 2px solid #ff705b;
+}
